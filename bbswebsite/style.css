@@ -1,0 +1,121 @@
+html{
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    position: relative;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.header-logo{
+    padding-top:0.65rem;
+    width:33%;
+}
+
+.logo{
+    width: 8rem;
+    height: 4rem;
+}
+
+.header-content{
+    width:100%;
+}
+
+.header-list{
+    width:100%;
+    list-style-type: none;
+    display:table;
+    margin: 0;
+    padding: 0;
+}
+
+.header-cell{
+    display:table-cell;
+    padding-left: 5rem;
+}
+
+.header-cell a{
+    transition:color 0.3s;
+    text-decoration: none;
+    color:black;
+    font-size: 16px !important;
+    line-height:16px !important;
+    font-weight: 500 !important;
+}
+
+.header-cell a:hover{
+    color:deepskyblue;
+}
+
+.slide{
+    display: flex;
+    position: relative;
+}
+
+.slide-caption{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color:#fff;
+}
+
+.slide-header{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom:20px;
+}
+
+.slide-description{
+    padding-bottom: 20px;
+}
+
+.slide-img img{
+    width:100%;
+}
+
+.slider-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color ease 1s;
+    position:absolute;
+    font-weight: 700;
+    color:#fff;
+    width: 50px;
+    height: 50px;
+}
+
+.slider-btn:hover{
+    background-color:white;
+    color: grey;
+}
+
+.next-slide-btn{
+    top: 50%;
+    right: 2%;
+}
+
+.previous-slide-btn{
+    top: 50%;
+    left: 2%;
+}
+
+.slide{
+    position: absolute;
+    transition: opacity ease 1s;
+    opacity:0;
+}
+
+.main{
+    display:block;
+    opacity: 1;
+}
