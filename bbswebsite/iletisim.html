@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBS Bilişim</title>
+    <link rel="stylesheet" href="style.css"/></head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <body>
+    <header>
+        <div class="header">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img class="logo" src="images/logo.png">
+                </a>
+            </div>
+
+            <input type="checkbox" id="menu-bar">
+            <label class="menu-bar-img" for="menu-bar">
+                <img src="images/menu.png" alt="">
+            </label>
+
+            <div class="header-content">
+                <ul class="header-list">
+                    <li class="header-cell"><a href="index.html">Anasayfa</a></li>
+                    <li class="header-cell"><a href="">Kurumsal</a>
+                    <ul>
+                        <li>
+                            <a href="hakkimizda.html">Hakkımızda</a>
+                        </li>
+                        <li>
+                            <a href="hizmet-politikamız.html">Hizmet Politikamız</a>
+                        </li>
+                        <li>
+                            <a href="uzmanligimiz.html">Uzmanlığımız</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="header-cell"><a href="">Hizmetlerimiz</a>
+                        <ul>
+                            <li><a href="bakim-hizmetlerimiz.html">Bakım Hizmetlerimiz</a></li>
+                            <li><a href="script.js">Sızma Testi Hizmetlerimiz</a></li>
+                            <li><a href="kurumsal-cloud-hosting-hizmetlerimiz.html">Kurumsal Cloud Server-Hosting Hizmetlerimiz</a></li>
+                            <li><a href="danismanlik-hizmetlerimiz.html">Danışmanlık Hizmetlerimiz</a></li>
+                            <li><a href="altyapi-hizmetlerimiz.html">Altyapı Hizmetlerimiz</a></li>
+                            <li><a href="kvkk-danismanlik-hizmetleri.html">KVKK Danışmanlık Hizmetlerimiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="header-cell"><a href="referanslarimiz.html">Referanslarımız</a></li>
+                    <li class="header-cell"><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+           <div class="banner">
+                <img src="images/banner.png" alt="banner">
+                <div class="navigator"><a href="index.html">Anasayfa</a> / İletişim</div>
+           </div>
+           <div class="content">
+                <p class="content-p-header">Ürün ve hizmetlerimiz hakkında daha detaylı bilgi almak için e-posta, telefon veya iletişim formumuz aracılığı ile rahatlıkla irtibat sağlayabilirsiniz.</p>
+                <div class="under-section">
+                    <div class="content-contact-info">
+                        <div class="content-contact-info-header">
+                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                            İletişim Bilgilerimiz
+                        </div>
+                        <div class="content-contact-infos">
+                            <div class="contact">
+                                <div>Telefon</div>
+                                <div>+90 (543) 445 60 01</div>
+                            </div>
+                            <div class="contact">
+                                <div>E-posta</div>
+                                <div>info@bbsbilisim.com.tr</div>
+                            </div>
+                            <div class="contact">
+                                <div>Adres</div>
+                                <div>Cami Mahallesi Cami Sokak No:18 Kat:1 Darıca/Kocaeli</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-contact-info">
+                        <div class="content-contact-info-header">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            Bize Mesaj Gönderin
+                        </div>
+                        <div class="content-contact-form">
+                            <form action="#" method="post" id="contact-form">
+                                <table class="contact-table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Adınız - Soyadınız</td>
+                                            <td>
+                                                <input type="text" name="adsoyad">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Telefon</td>
+                                            <td>
+                                                <input type="text" name="telefon">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>E-Posta</td>
+                                            <td>
+                                                <input type="text" name="email">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mesajınız</td>
+                                            <td>
+                                                <textarea name="mesaj"></textarea>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button class="btn btn-outline-info form-send-btn">
+                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                    Gönder
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="gmap mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1137&amp;height=400&amp;hl=en&amp;q=Cami Mah. Cami Sok. No:18 Kat:1 Kocaeli/Darıca&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://gachanymph.com/">Gacha Nymph</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>           </div>
+    </main>
+    <footer>
+        <div class="footer-contact">
+            Hizmetlerimiz hakkında detaylı bilgi almak için, <b>Hemen Arayın! +90 (543) 445 60 01 </b>
+        </div>
+        <div class="footer-info">
+            <div class="section">
+                <div class="footer-logo">
+                    <img src="images/logo-black.png" alt="logo">
+                </div>
+                <div class="footer-phone">
+                    <div class="footer-label">Telefon:</div>
+                    <div class="footer-contact-info">+90 (543) 445 60 01</div>
+                </div>
+                <div class="footer-mail">
+                    <div class="footer-label">E-Posta:</div>
+                    <div class="footer-contact-info">info@bbsbilisim.com.tr</div>
+                </div>
+                <div class="footer-address">
+                    <div class="footer-label">Adres:</div>
+                    <div class="footer-contact-info">Cami Mahallesi Cami Sokak No:18 Kat:1 Kocaeli/Darıca</div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="footer-links">
+                    <div href="#" class="footer-header">Hızlı Erişim</div>
+                    <a href="index.html" class="footer-label">Anasayfa</a>
+                    <a href="hakkimizda.html" class="footer-label">Hakkımızda</a>
+                    <a href="hizmetlerimiz.html" class="footer-label">Hizmetlerimiz</a>
+                    <a href="referanslarimiz.html" class="footer-label">Referanslarımız</a>
+                    <a href="iletisim.html" class="footer-label">İletişim</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            Copyright © 2023 BBS Bilişim LTD. ŞTİ. | Sitede yayınlanan yazılı ve görsel materyallerin tüm hakları saklıdır.
+        </div>
+    </footer>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script><script src="https://kit.fontawesome.com/3690f8811d.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>

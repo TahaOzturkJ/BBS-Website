@@ -14,13 +14,40 @@
                     <img class="logo" src="images/logo.png">
                 </a>
             </div>
+
+            <input type="checkbox" id="menu-bar">
+            <label class="menu-bar-img" for="menu-bar">
+                <img src="images/menu.png" alt="">
+            </label>
+
             <div class="header-content">
                 <ul class="header-list">
-                    <li class="header-cell"><a href="">Anasayfa</a></li>
-                    <li class="header-cell"><a href="">Kurumsal</a></li>
-                    <li class="header-cell"><a href="">Hizmetlerimiz</a></li>
-                    <li class="header-cell"><a href="">Referanslarımız</a></li>
-                    <li class="header-cell"><a href="">İletişim</a></li>
+                    <li class="header-cell"><a href="index.html">Anasayfa</a></li>
+                    <li class="header-cell"><a href="">Kurumsal</a>
+                    <ul>
+                        <li>
+                            <a href="hakkimizda.html">Hakkımızda</a>
+                        </li>
+                        <li>
+                            <a href="hizmet-politikamız.html">Hizmet Politikamız</a>
+                        </li>
+                        <li>
+                            <a href="uzmanligimiz-html">Uzmanlığımız</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="header-cell"><a href="">Hizmetlerimiz</a>
+                        <ul>
+                            <li><a href="bakim-hizmetlerimiz.html">Bakım Hizmetlerimiz</a></li>
+                            <li><a href="sizma-testi-hizmetlerimiz.html">Sızma Testi Hizmetlerimiz</a></li>
+                            <li><a href="kurumsal-cloud-hosting-hizmetlerimiz.html">Kurumsal Cloud Server-Hosting Hizmetlerimiz</a></li>
+                            <li><a href="danismanlik-hizmetlerimiz.html">Danışmanlık Hizmetlerimiz</a></li>
+                            <li><a href="altyapi-hizmetlerimiz.html">Altyapı Hizmetlerimiz</a></li>
+                            <li><a href="kvkk-danismanlik-hizmetleri.html">KVKK Danışmanlık Hizmetlerimiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="header-cell"><a href="referanslarimiz.html">Referanslarımız</a></li>
+                    <li class="header-cell"><a href="iletisim.html">İletişim</a></li>
                 </ul>
             </div>
         </div>
@@ -34,17 +61,17 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100 slide-img" src="images/banner-home.jpg" alt="First slide">
-                      <div class="carousel-caption custom-caption d-none d-md-block">
-                        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa illo doloremque quas necessitatibus porro et hic corrupti aliquid minima commodi placeat alias, sint laudantium vero fugiat eveniet molestiae? Tempore, eius.</p>
+                      <img class="d-block w-100 slide-img" src="images/bg-1.png" alt="First slide">
+                      <div class="carousel-caption custom-caption">
+                        <h5>Bizimle Beraber Bilgi Teknolojileri Altyapınızı Güçlendirin</h5>
+                        <p>BT sektöründeki 15 yıllık tecrübemizle, müşterilerimize güvenli ve sürdürülebilir çözümler sunuyoruz.</p>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100 slide-img" src="images/banner-office.jpg" alt="Second slide">
-                      <div class="carousel-caption custom-caption d-none d-md-block">
-                        <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, culpa?</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate magnam accusantium voluptatem, nostrum iste officia inventore nulla labore perferendis earum beatae ipsa mollitia animi commodi, cumque quaerat repellat qui.</p>
+                      <img class="d-block w-100 slide-img" src="images/bg-1.jpg" alt="Second slide">
+                      <div class="carousel-caption custom-caption">
+                        <h5>Başarınız için güvenilir BT hizmetlerine hazırlanın.</h5>
+                        <p>BBS Bilişim, müşterilerinin ana işine değer katan, ağ ve bilgi teknolojileriyle müşterilerini geleceğe taşıyan en doğru adres.</p>
                       </div>
                     </div>
                   </div>
@@ -69,7 +96,7 @@
                              Entegrasyon ve telekomünikasyon ile bilişim sektörlerinde; projelendirme, satış, kurulum, bakım, eleman kiralama, profesyonel teknik destek, danışmanlık ve eğitim hizmetleri vermek üzere  kurulmuştur. Kurucularının, ilgili sektörlerdeki 15 yılı aşkın bilgi, deneyim ve birikimini bir araya getirmesi ile faaliyete geçen firma, KOCAELI/DARICA ofisinde hizmet vermektedir.
                             </div>
                             <div class="about-btn">
-                             <button type="button" class="btn btn-outline-info">Devamı...</button>
+                             <button type="button" class="btn btn-outline-info" onclick="location.href = 'hakkimizda.html';">Devamı...</button>
                             </div>
                          </div>
                     </div>
@@ -86,7 +113,7 @@
                                 </div>
                                 <div class="solution-description">Müşteri gereksinimleri doğrultusunda sunucu çözümlerine yönelik danışmanlık.</div>
                                 <div class="solution-btn">
-                                    <a href="#">
+                                    <a href="sunucu-cozumlerimiz.html">
                                         Devamını Oku
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </a>
@@ -95,7 +122,7 @@
                             <div class="carousel-item">
                                 <div class="solution-header">
                                     <div class="solution-icon">
-                                        <img src="images/database-storage.png" alt="">
+                                        <img src="images/firewall.png" alt="">
                                     </div>
                                     <div class="solution-header-text">
                                         Güvenlik Çözümlerimiz
@@ -103,7 +130,7 @@
                                 </div>
                                 <div class="solution-description">Günümüz teknoloji dünyasında güvenlik en önemli sorunlardan biri haline gelmiştir.</div>
                                 <div class="solution-btn">
-                                    <a href="#">
+                                    <a href="guvenlik-cozumlerimiz.html">
                                         Devamını Oku
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </a>
@@ -127,49 +154,229 @@
                         </div>
                         <div class="services-carousel-slider">
                             <div class="services-carousel-slider-btn">
-                                <div class="previous-solution-slide-btn" href="#services-carousel" role="button" data-slide="prev">
-                                    <i class="fa-solid fa-chevron-left"></i>
-                                </div>
-                                <div class="next-solution-slide-btn" href="#services-carousel" role="button" data-slide="next">
-                                    <i class="fa-solid fa-chevron-right"></i>
-                                </div>
+                                <a class="previous-solution-slide-btn">
+                                    <i id="left" class="fa-solid fa-chevron-left"></i>
+                                </a>
+                                <a class="next-solution-slide-btn">
+                                    <i id="right" class="fa-solid fa-chevron-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div id="services-carousel" class="carousel slide service-slider" data-ride="carousel">
-                        <div class="carousel-inner services">
-                            <div class="carousel-item service-carousel-item active">
-                                <div class="service">
-                                    <div class="services-icon">
-                                        <img src="images/database-storage.png" alt="">
-                                    </div>
-                                    <div class="services-header-text">
-                                        Bakım Hizmetlerimiz
-                                    </div>
+                    <div class="services-wrapper">
+                        <ul class="services-carousel">
+                            <li class="services-card">
+                                <div class="img">
+                                    <img src="images/server.png" alt="img" draggable="false">
+                                    <h4>Bakım</h4>
                                 </div>
-                            </div>
-                            <div class="carousel-item service-carousel-item">
-                                <div class="service">
-                                    <div class="services-icon">
-                                        <img src="images/database-storage.png" alt="">
-                                    </div>
-                                    <div class="services-header-text">
-                                        Kurumsal Cloud Server Hizmeti
-                                    </div>
+                            </li>
+                            <li class="services-card">
+                                <div class="img">
+                                    <img src="images/data-security.png" alt="img" draggable="false">
+                                    <h4>Sızma Testi</h4>
                                 </div>
+                            </li>
+                            <li class="services-card">
+                                <div class="img">
+                                    <img src="images/servercloudhosting.png" alt="img" draggable="false">
+                                    <h4>BBSCloud Hosting</h4>
+                                </div>
+                            </li>
+                            <li class="services-card">
+                                <div class="img">
+                                    <img src="images/danismanlik.png" alt="img" draggable="false">
+                                    <h4>Danışmanlık</h4>
+                                </div>
+                            </li>
+                            <li class="services-card">
+                                <div class="img">
+                                    <img src="images/serverhosting.png" alt="img" draggable="false">
+                                    <h4>Altyapı</h4>
+                                </div>
+                            </li>
+                            <li class="services-card">
+                                <div class="img">
+                                    <img src="images/kvkkdanismanlik.png" alt="img" draggable="false">
+                                    <h4>KVKK Danışmanlık</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="markings">
+                        <div class="marking">
+                            <div class="marking-img">
+                                <img src="images/like.png" alt="">
                             </div>
+                            <div class="marking-header">
+                                <h4>Bize Güvenebilirsiniz</h4>
+                            </div>
+                            <div class="marking-description">
+                                <p>Firmamız, faaliyet gösterdiği alanda yılların verdiği bilgi birikimi ve tecrübeyle hizmetinizdedir.</p>
+                            </div>
+                        </div>
+                        <div class="marking">
+                            <div class="marking-img">
+                                <img src="images/checked.png" alt="">
+                            </div>
+                            <div class="marking-header">
+                                <h4>Güçlü Alt Yapı</h4>
+                            </div>
+                            <div class="marking-description">
+                                <p>Alanında uzman kalifiye personelimiz ve son teknoloji modern ekipmanlarımız ile hizmetinizdeyiz.</p>
+                            </div>
+                        </div>                        
+                        <div class="marking">
+                            <div class="marking-img">
+                                <img src="images/smile.png" alt="">
+                            </div>
+                            <div class="marking-header">
+                                <h4>%100 Memnuniyet</h4>
+                            </div>
+                            <div class="marking-description">
+                                <p>Tüm ürün ve hizmetlerimizde en önemli önceliğimiz müşterilerimizin memnuniyetidir.</p>
+                            </div>
+                        </div>                        
+                        <div class="marking">
+                            <div class="marking-img">
+                                <img src="images/trophy.png" alt="">
+                            </div>
+                            <div class="marking-header">
+                                <h4>Üstün Kalite</h4>
+                            </div>
+                            <div class="marking-description">
+                                <p>Çözüm ve hizmetlerimizi her zaman birinci sınıf kalite ile sunmaktayız.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-section">
+                    <div class="partners-header">
+                        <div class="partners-header-text">
+                           Çözüm Ortaklarımız
+                        </div>
+                        <div class="partners-carousel-slider">
+                            <div class="partners-carousel-slider-btn">
+                                <a class="previous-partners-slide-btn">
+                                    <i id="left" class="fa-solid fa-chevron-left"></i>
+                                </a>
+                                <a class="next-partners-slide-btn">
+                                    <i id="right" class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="partners-wrapper">
+                            <ul class="partners-carousel">
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/0ef371eb7b.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/1d4102e4c5.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/34b11ecfbf.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/34d6fe79a6.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/4084380aa5.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/4de00f8811.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/9e17a55efa.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/acf8449f9f.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/b10b6caef6.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/caff52b5c9.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/e36b24df14.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                                <li class="partners-card">
+                                    <div class="img">
+                                        <img src="images/7e9c34e912.png" alt="img" draggable="false">
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer> 
+    <footer>
+        <div class="footer-contact">
+            Hizmetlerimiz hakkında detaylı bilgi almak için, <b>Hemen Arayın! +90 (543) 445 60 01 </b>
+        </div>
+        <div class="footer-info">
+            <div class="section">
+                <div class="footer-logo">
+                    <img src="images/logo-black.png" alt="logo">
+                </div>
+                <div class="footer-phone">
+                    <div class="footer-label">Telefon:</div>
+                    <div class="footer-contact-info">+90 (543) 445 60 01</div>
+                </div>
+                <div class="footer-mail">
+                    <div class="footer-label">E-Posta:</div>
+                    <div class="footer-contact-info">info@bbsbilisim.com.tr</div>
+                </div>
+                <div class="footer-address">
+                    <div class="footer-label">Adres:</div>
+                    <div class="footer-contact-info">Cami Mahallesi Cami Sokak No:18 Kat:1 Kocaeli/Darıca</div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="footer-links">
+                    <div href="#" class="footer-header">Hızlı Erişim</div>
+                    <a href="index.html" class="footer-label">Anasayfa</a>
+                    <a href="hakkimizda.html" class="footer-label">Hakkımızda</a>
+                    <a href="hizmet-politikamız.html" class="footer-label">Hizmetlerimiz</a>
+                    <a href="referanslarimiz.html" class="footer-label">Referanslarımız</a>
+                    <a href="iletisim.html" class="footer-label">İletişim</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            Copyright © 2023 BBS Bilişim LTD. ŞTİ. | Sitede yayınlanan yazılı ve görsel materyallerin tüm hakları saklıdır.
+        </div>
     </footer>
 </body>
 </html>
 
-<script src="script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script><script src="https://kit.fontawesome.com/3690f8811d.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
