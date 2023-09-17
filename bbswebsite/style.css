@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
 body{
     margin:0;
-    font-family: "Poppins",sans-serif;
+    font-family: "San Francisco";
 }
 
 a:hover{
@@ -53,7 +59,7 @@ a:hover{
     transition:color 0.3s;
     text-decoration: none;
     color:black;
-    font-size: 18px !important;
+    font-size: 16px !important;
     line-height: 29px !important;
     font-weight: 500 !important;
 }
@@ -108,17 +114,15 @@ header label{
 
 .slide{
     height:400px !important;
-    overflow: hidden;
-
+    overflow:hidden;
 }
 
     .custom-caption {
         display:flex;
         flex-direction: column;
-        align-items: flex-start !important;
-        text-align: left !important;
-        margin-bottom: 400px;
-        margin-left: 95px;
+        top: 25%;
+        margin-left:150px;
+        text-align: start !important;
     }
 
     .custom-caption h5 {
@@ -135,7 +139,7 @@ header label{
     }
 
 .content{
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: 24rem;
     margin-right: 24rem;
 }
@@ -172,6 +176,10 @@ header label{
 
 .about{
     width:75%;
+}
+
+.about-p{
+    margin-bottom: 50px;
 }
 
 .solution-slider{
@@ -511,7 +519,7 @@ header label{
     }
 
     .custom-caption{
-        margin-bottom:630px;
+        top: 15%;
     }
 
     .services-wrapper .services-carousel{
@@ -535,12 +543,13 @@ header label{
 
 @media(max-width:1920px){
 
-    .custom-caption{
-        margin-bottom:400px;
-    }
     
     .menu-bar-img{
         display:none;
+    }
+
+    .custom-caption{
+        top: 20%;
     }
 
     .services-wrapper .services-carousel{
@@ -562,18 +571,18 @@ header label{
     }
 }
 
-@media(max-width:1441px){
+@media(max-width:1600px){
 
     .navigator{
         right: 255px !important;
     }
 
-    .custom-caption{
-        margin-bottom:230px;
-    }
-
     .menu-bar-img{
         display:none;
+    }
+
+    .custom-caption{
+        top: 25%;
     }
 
     .header-logo{
@@ -608,18 +617,83 @@ header label{
     }
 }
 
+@media(max-width:1300px){
+
+    .navigator{
+        right: 255px !important;
+    }
+
+    .menu-bar-img{
+        display:none;
+    }
+
+    .header{
+        margin-left:13rem;
+        margin-right:13rem;
+    }
+
+    .custom-caption{
+        top: 25%;
+    }
+
+    .header-logo{
+        padding-left: 0;
+    }
+
+    .header-list{
+        padding-right: 0;
+    }
+
+    .content{
+        margin-left:16rem;
+        margin-right: 16rem;
+    }
+
+    .services-wrapper .services-carousel{
+        grid-auto-columns: calc((100% / 3));
+    }
+
+    .partners-card{
+        width: 100px;
+        height: 100px;
+        margin-top:50px;
+    }
+
+    .footer-info{
+        padding-left:240px;
+        padding-right:240px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1200px) {
+    .header{
+        margin-left:10rem;
+        margin-right:10rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .header{
+        margin-left:8rem;
+        margin-right:8rem;
+    }
+}
+
 @media(max-width:1025px){
 
     .navigator{
         right:45px !important;
     }
 
-    .custom-caption{
-        margin-bottom:70px;
-    }
-
     .menu-bar-img{
         display:none;
+    }
+
+    .custom-caption{
+        top: 30%;
     }
 
     .header{
@@ -645,10 +719,25 @@ header label{
     }
 }
 
+@media(max-width:830px){
+    .header{
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .custom-caption{
+        left: 0;
+    }
+}
+
 @media(max-width:769px){
 
     .navigator{
         right:45px !important;
+    }
+
+    .custom-caption{
+        top: 30%;
     }
 
     .menu-bar-img{
@@ -838,16 +927,16 @@ header label{
         right: 25px !important;
     }
 
-    .custom-caption{
-        margin-bottom:-20px;
-    }
-
     .slide a{
-        margin-bottom: 40px;
+        margin-bottom: 120px;
     }
 
     .slide{
-        height: 200px !important;
+        height: 300px !important;
+    }
+
+    .custom-caption{
+        top: 10%
     }
 
     .menu-bar-img{
@@ -973,12 +1062,8 @@ header label{
         right:25px !important;
     }
 
-    .custom-caption{
-        margin-bottom:-30px;
-    }
-
-    .slide:nth-child(1){
-        height: 150px !important;
+    .slide{
+        height: 250px !important;
     }
 
     .menu-bar-img{
@@ -989,6 +1074,14 @@ header label{
         height: 24px;
         width: 24px;
         margin-bottom: 4px;
+    }
+
+    .custom-caption{
+        top:5%
+    }
+
+    .slide a {
+        margin-bottom: 100px;
     }
 
     .custom-caption h5{
@@ -1110,12 +1203,16 @@ header label{
         right:15px !important;
     }
 
-    .custom-caption{
-        margin-bottom:-40px;
+    .slide{
+        height: 200px !important;
     }
 
-    .slide:nth-child(1){
-        height: 140px !important;
+    .slide a {
+        margin-bottom: 80px;
+    }
+
+    .custom-caption,.slide a{
+        top:1%
     }
 
     .menu-bar-img{
